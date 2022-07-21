@@ -1,3 +1,5 @@
+package model;
+
 public class Taxi extends Transporation {
     /* fields */
     static final int BASE_DIST = 1;

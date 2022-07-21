@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Scanner;
 
 public class Test {
@@ -228,5 +230,8 @@ public class Test {
         System.out.println("주유량 = " + taxi1.setFuel(-20));
         System.out.println("(요금 결제)");
         System.out.println("누적 요금 = " + taxi1.total_fare);
+
+        System.out.println();
+        System.out.println("taxi1 테스트를 종료합니다.");
     }
 }

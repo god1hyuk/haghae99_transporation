@@ -1,3 +1,5 @@
+package model;
+
 public class Bus extends Transporation {
     /* fields */
     static final int PER_FARE = 1000;
